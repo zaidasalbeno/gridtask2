@@ -1,0 +1,100 @@
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    background: #222;
+    color: white;
+    align-items: center;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+nav a {
+    color: white;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    padding: 30px;
+}
+
+.hero {
+    padding: 40px;
+    background: darkblue;
+    color: white;
+}
+
+.features {
+    display: grid;
+    gap: 15px;
+}
+
+.feature {
+    padding: 25px;
+    background: #100864;
+    color: white;
+}
+
+.articles {
+    grid-column: 1;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.card {
+    border: 1px solid #ccc;
+}
+
+.picture {
+    height: 100px;
+   
+    display: grid;
+    place-items: center;
+    font-size: 40px;
+}
+
+.card h3
+ {
+    padding: 10px;
+}
+.card button{
+
+padding:10px;
+margin: 10px;
+background-color: darkgreen;
+color: #ddd;
+font-size: 15px;
+border-radius: 20px;
+}
+aside {
+    grid-column: 2;
+    grid-row: 2;
+    border: 1px solid #28065e;
+    padding: 20px;
+    background-color: #28065e;
+    color: white;
+}
+
+aside p {
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    gap: 30px;
+    padding: 30px;
+    background: #222;
+    color: white;
+}
